@@ -1,67 +1,68 @@
 body {
+	width: 960px;
 	margin: 0 auto;
-	width: 1200px;
 }
-
-.top-nav {
-	margin-left: 20px;
-}
-.top-nav li {
-	display: inline-block;
-	padding-right: 100px;
-	font-family: Arial;
-	font-size: 15pt;
-}	
 
 .top-nav ul {
-	padding-left: 0;
-	margin-bottom: 5px;
-
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	font-family: Arial;
+	font-size: 15pt;
+	padding: 0;
 }
-img {
-	width: 300px;
-	
+
+.top-nav li {
+	display: flex;
+	margin-right: 20px;
+}
+
+main {
+	display: flex;
+	flex-direction: row;
 }
 
 .image {
-	width: 300px;
-	display: inline-block;
+	width: 40%;
+}
+
+img {
+	width: 100%;
 }
 
 .text {
-	position: relative;
+	margin: 0 1rem;
 	width: 60%;
-	display: inline-block;
-	vertical-align: top;
-	margin-bottom: 20px;
-}
-
-p {
-	margin: 0 10px;
 }
 
 .post {
 	border: 2px solid grey;
-	width: 800px;
-	margin: 20px;
+	
+	margin-bottom: 1rem;
+	
+}
 
+.post-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	padding: 1rem;
 }
 
 h2 {
-	margin: 5px;
+	margin: 0.5rem 1rem;
 }
 
 section {
-	display: inline-block;
-	margin: 0;
-}
+	width: 80%;
 
+}
 aside {
-	display: inline-block;
-	vertical-align: top;
 	border: 2px solid grey;
-	margin-top: 20px;
-	width: 300px;
-	height: 500px;
+	margin: 0 1rem 1rem;
+	width: 20%;
 }
 
+a {
+	text-decoration: none;
+}
