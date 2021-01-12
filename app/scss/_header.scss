@@ -2,7 +2,7 @@
 
     &.open {
             
-        .header__menu {
+        .header__toggle {
 
             > span:first-child {
                 transform: rotate(45deg);
@@ -22,17 +22,19 @@
     .overlay {
         opacity: 0;
         position: fixed;
-        top: 3.75rem;
+        top: 0px;
         right: 0px;
         bottom: 0px;
         left: 0px;
         background-image: linear-gradient($darkBlue, transparent);
-
-        
+                
     }
 
     nav {
-        padding: 1.0625rem 1.5rem;
+        position: relative;
+        background-color: $white;
+        padding-top: 1.0625rem;
+        padding-bottom: 1.0625rem;
     }
     &__logo {
         
@@ -43,7 +45,7 @@
 
     }
 
-    &__menu {   //mobile menu
+    &__toggle {   //mobile menu toggle
 
         > span {
             display: block;
@@ -56,6 +58,20 @@
             &:not(:last-child) {
                 margin-bottom: 5px;
             }
+        }
+    }
+    
+    &__menu {
+        background: $white;
+        margin: 0px 1.5rem;
+        padding: 1.625rem;
+        border-radius: 3px;
+
+        a {
+            display: block;
+            color: $darkBlue;
+            padding: 0.625rem;
+            text-align: center;
         }
     }
 
