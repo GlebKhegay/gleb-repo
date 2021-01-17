@@ -7,6 +7,10 @@
     visibility: hidden;
     opacity: 0;
   }
+  1% {
+    visibility: hidden;
+    opacity: 0;
+  }
   to {
     visibility: visible;
     opacity: 1;
@@ -18,6 +22,10 @@
     visibility: hidden;
     opacity: 0;
   }
+  1% {
+    visibility: hidden;
+    opacity: 0;
+  }
   to {
     visibility: visible;
     opacity: 1;
@@ -25,8 +33,8 @@
 }
 
 .fade-in {
-  -webkit-animation: fade-in 300ms ease-in-out forwards;
-          animation: fade-in 300ms ease-in-out forwards;
+  -webkit-animation: fade-in 200ms ease-in-out forwards;
+          animation: fade-in 200ms ease-in-out forwards;
 }
 
 @-webkit-keyframes fade-out {
@@ -60,7 +68,7 @@
 }
 
 .fade-out {
-  -webkit-animation: fade-out 300ms ease-in-out forwards;
-          animation: fade-out 300ms ease-in-out forwards;
+  -webkit-animation: fade-out 200ms ease-in-out forwards;
+          animation: fade-out 200ms ease-in-out forwards;
 }
 /*# sourceMappingURL=animations.css.map */
