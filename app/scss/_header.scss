@@ -91,9 +91,9 @@
             }
         
         &::before {
-            content: "";
-            display: block;
+            content: "";    
             position: absolute;
+            display: block;
             height: 5px;
             left: 0;
             right: 0;
